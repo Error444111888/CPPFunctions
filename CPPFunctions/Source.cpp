@@ -50,10 +50,17 @@ using std::endl;
 			total = USD + TRY + EUR;
 		}
 		return 0;
-
-
-
-
-
 	}
 
+// Third Example
+
+	void SayMyName()
+	{
+		cout << "My name is ---Error 418---" << endl;
+	}
+
+	int main()
+	{
+		SayMyName();
+		return 0;
+	}
