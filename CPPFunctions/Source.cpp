@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <string>
+#include <math.h>
 
 
 using namespace std;
@@ -39,18 +40,26 @@ using std::endl;
 
 	// Second Example
 
-	double CurrencyCalculations(double, double);
-	double CurrencyCalculations()
+	double CurrencyCalculations(double n) //you've to declared the input n 
 	{
+		double total; //You've to declared the total 
 
 		double USD = 1.11;
 		double EUR = 5.51;
 		double TRY = 5.11;
 
-		double total;
-		{
-			total = USD + TRY + EUR;
-		}
+		total = USD + TRY + EUR;
+
+		return total; // You've to return the total;
+
+
+	}
+
+	int salla()
+		
+	{
+
+		cout << CurrencyCalculations(55); //result === the function returns 11.73 when the input is 55
 		return 0;
 	}
 
