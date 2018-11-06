@@ -8,7 +8,9 @@ using namespace std;
 using std::cout;
 using std::endl;
 
-// First Example
+
+
+	// First Example
 
 	int pow(int base, int exponent)
 	{
@@ -52,7 +54,7 @@ using std::endl;
 		return 0;
 	}
 
-// Third Example
+	// Third Example
 
 	void SayMyName()
 	{
@@ -62,5 +64,13 @@ using std::endl;
 	int main()
 	{
 		SayMyName();
-		return 0;
+		
+
+
+
+
+
+
+		cin.get();
+
 	}
