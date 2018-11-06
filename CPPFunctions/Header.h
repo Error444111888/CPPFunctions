@@ -1,4 +1,6 @@
-
-double USD = 1.1;
-double EUR = 5.5;
-double TRY = 5.1;
+void TavCurrencies()
+{
+	double USD = 1.1;
+	double EUR = 5.5;
+	double TRY = 5.1;
+};
